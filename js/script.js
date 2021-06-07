@@ -10,7 +10,7 @@ console.log(numberUser);
 // Generiamo un numero random sempre da 1 a 5:
 function numberRandom() {
     var num = Math.round(Math.random() * 4) +1;
-    return(num);
+    return num;
 }
 var number = numberRandom();
 console.log(number);
@@ -20,16 +20,16 @@ var somma = numberUser + number;
 console.log(somma);
 
 // Scopriamo se la somma è pari o dispari:
-var sommaPariDispari = éPariODispari;
+var sommaPariDispari = pariODispari;
 
-function éPariODispari() {
+function pariODispari() {
     var risultato = 0;
     if (somma % 2 == 0) {
         risultato = 'Pari'
     } else {
         risultato = 'Dispari'
     }
-    return(risultato);
+    return risultato;
 }   
 var pariODispari = risultato;
 console.log(pariOdispari);
